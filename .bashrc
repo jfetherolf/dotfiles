@@ -116,4 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export PYTHONPATH=${PYTHONPATH}:/home/jfetherolf/Python
+export PYTHONPATH=${PYTHONPATH}:${HOME}/Python
+
+module load python
