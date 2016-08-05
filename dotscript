@@ -6,3 +6,9 @@ git add .vimrc
 git add .gnuplot
 git add .ssh
 git add .gitconfig
+git add utils
+git add dotscript
+
+git commit -m 'updated configs'
+
+git push origin master
